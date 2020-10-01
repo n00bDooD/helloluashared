@@ -1,7 +1,6 @@
 #define LUA_LIB
 #include "lua.h"
 #include "lauxlib.h"
-
 #include <stdio.h>
 
 static int hello(lua_State *L) {
